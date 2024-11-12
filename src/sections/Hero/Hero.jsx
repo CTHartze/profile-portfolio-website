@@ -52,7 +52,7 @@ function Hero() {
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p>
+        <p className={styles.description}>
           Fueled by a passion for creating dynamic and visually appealing
           interfaces, that are responsive and user-friendly.
         </p>
