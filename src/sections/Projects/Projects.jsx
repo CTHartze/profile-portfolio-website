@@ -3,12 +3,19 @@ import portfolio from "../../assets/portfolio.png";
 import taskGoal from "../../assets/task-goal.png";
 import ProjectCard from "../../common/ProjectCard";
 import weatherApp from "../../assets/weather-app.png";
+import tierListMaker from "../../assets/tierlistmaker.png";
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
+        <ProjectCard
+          src={tierListMaker}
+          link="https://github.com/CTHartze/tierlistmaker"
+          h3="TierListMaker-App"
+          p="Tier list React application"
+        />
         <ProjectCard
           src={weatherApp}
           link="https://github.com/CTHartze/weather-app"
