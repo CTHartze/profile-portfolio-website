@@ -13,8 +13,8 @@ function Projects() {
         <ProjectCard
           src={tierListMaker}
           link="https://github.com/CTHartze/tierlistmaker"
-          h3="TierListMaker-App"
-          p="Tier list React application"
+          h3="TierListMaker"
+          p="Tier list React App"
         />
         <ProjectCard
           src={weatherApp}
